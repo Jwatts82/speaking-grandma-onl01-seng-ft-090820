@@ -11,3 +11,13 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+grandma = "I love you grandma!".upcase
+
+if grandma == "hi grandma"
+  puts "Huh?! Speak up, sonny!".upcase
+elsif grandma == "how are you".upcase
+  puts "No, Not Since 1938!".upcase
+elsif grandma == "I love you grandma!".upcase
+  puts "I love you too pumpkin!".upcase
+end
